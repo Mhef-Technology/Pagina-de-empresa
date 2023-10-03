@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/Fondo3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    font-family: 'Century Gothic', sans-serif;
+}
+#boton-ir {
+    position: fixed;
+    bottom: 5%; /* Porcentaje de la altura de la ventana */
+    right: 5%; /* Porcentaje del ancho de la ventana */
+    padding: 1% 2%; /* Porcentaje del tamaño del botón */
+    background-color: rgba(0,0,0,.4); 
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 22px;
+    border-radius: 5px; 
+    transition: all 0.5s ease-in-out;
+}
+#boton-ir:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+.box {
+    width: 500px;
+    background: rgba(0,0,0,.4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img{
+    border-radius: 50%;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+.box h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+.box ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.box ul a{
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: inline-block; 
+    transition: all 0.5s ease-in-out;
+}
+.box ul a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
